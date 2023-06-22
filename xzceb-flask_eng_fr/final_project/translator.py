@@ -29,6 +29,11 @@ def englishtofrench(word):
 
     return translation['translations'][0]['translation']
 
+def frenchToEnglish(frenchText):
+    enlishText = MyMemoryTranslator(source='fr',target='en').translate(frenchText)
+    princt(englishText)
+    return englishText
+
 def englishtogerman(word):
     """This class does english to german translation"""
 
